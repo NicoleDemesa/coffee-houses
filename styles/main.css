@@ -1,0 +1,19 @@
+.shop {
+    border: 1px dashed rgb(3, 0, 1);
+    padding: 5px;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+}  
+
+    .shop {
+        flex-basis: 16%;  /* Make each child element the same width */
+        border: 1px dashed rgb(19, 18, 18);
+        padding: 5px;
+        text-align: left; /* Left align the text in the boxes */
+    }
